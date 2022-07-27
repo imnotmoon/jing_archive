@@ -1,7 +1,3 @@
-export default function Index() {
-  return (
-    <div>
-      index
-    </div>
-  );
-}
+const Index = () => <div>landing</div>;
+
+export default Index;

@@ -1,6 +1,7 @@
-# Welcome to Remix!
+# Welcome to Jing-Archive!
 
-- [Remix Docs](https://remix.run/docs)
+## History
+- v0.1 : w/o drawing
 
 ## Deployment
 
