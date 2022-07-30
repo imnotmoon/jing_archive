@@ -1,3 +1,4 @@
 import React from 'react';
+import { Container } from './Header.styles';
 
-export const Header = () => <div>header</div>
+export const Header = () => <Container>header</Container>

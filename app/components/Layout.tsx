@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
 import { Header } from './Header';
+import { Container } from './Layout.styles'
 
 export const Layout: FC = ({ children }) => (
-  <div>
+  <Container>
     <Header />
     {children}
-  </div>
+  </Container>
 );
