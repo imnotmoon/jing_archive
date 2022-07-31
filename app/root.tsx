@@ -3,17 +3,12 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@re
 import { Modal } from './components';
 import { Layout } from './components/Layout';
 import { ModalProvider } from './context/ModalContext';
-import styles from './global.css';
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
   title: 'New Remix App',
   viewport: 'width=device-width,initial-scale=1',
 });
-
-export const links = () =>  {
-  return [{ rel: "stylesheet", href: styles }];
-}
 
 export default function App() {
   return (
