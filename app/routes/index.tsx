@@ -1,7 +1,5 @@
+import { Main } from '~/components/Main'
+
 export default function Index() {
-  return (
-    <div>
-      index
-    </div>
-  );
+  return <Main />
 }
