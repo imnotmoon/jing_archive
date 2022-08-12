@@ -1,109 +1,46 @@
-<h1 align="center">Remix Boilerplate</h1>
+# Getting Started with Create React App
 
-<p align="center">
-  <img alt="Made by" src="https://img.shields.io/badge/made%20by-Morpa%20-%2356BEB8">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/morpa/Remix-Styled-Components-Boilerplate.svg?color=56BEB8">
+## Available Scripts
 
-  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/morpa/Remix-Styled-Components-Boilerplate.svg?color=56BEB8">
+In the project directory, you can run:
 
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Morpa/Remix-Styled-Components-Boilerplate?color=56BEB8">
+### `npm start`
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Morpa/Remix-Styled-Components-Boilerplate?color=56BEB8">
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Morpa/Remix-Styled-Components-Boilerplate?color=56BEB8">
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-</p>
+### `npm test`
 
-## What is inside?
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This project uses lot of stuff as:
+### `npm run build`
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Remix](https://remix.run/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-First, run the development server:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### `npm run eject`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Commands
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
-- [Remix Docs](https://remix.run/docs)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Development
-
-From your terminal:
-
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
