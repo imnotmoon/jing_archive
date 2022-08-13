@@ -72,9 +72,8 @@
     "@storybook/node-logger": "^6.5.10",
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/testing-library": "0.0.13",
+    "@types/styled-components": "^5.1.26",
     "babel-plugin-named-exports-order": "0.0.2",
-    "prop-types": "^15.8.1",
-    "webpack": "^5.74.0",
     "eslint": "^8.15.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -86,7 +85,9 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-storybook": "^0.5.12",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "prop-types": "^15.8.1",
+    "webpack": "^5.74.0"
   },
   "msw": {
     "workerDirectory": ".storybook"
